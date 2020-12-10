@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: Arial, sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="conceptDesign.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Conceptual Design</a>
+    <a href="prototypes.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Prototypes</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Research</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="conceptDesign.html" class="w3-bar-item w3-button w3-padding-large">Conceptual Design</a>
+    <a href="prototypes.html" class="w3-bar-item w3-button w3-padding-large">Prototypes</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-padding-large">Research</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:100px 16px; background-image:linear-gradient(to bottom, #9999ff 0%, #ff66ff 100%);">
+  <h1 class="w3-margin w3-jumbo" style="color: white; font-weight: bold;">Research</h1>
+</header>
+
+<!-- Innovations -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-row-padding">
+      <h1>Innovations</h1>
+      <h5 class="w3-padding-32">Our device is innovative because it embeds technology in user environments that are subtle and nondisruptive. We propose an object that increases a feeling of connectedness that does not require active engagement and allows users to multitask. Furthermore, our design is not centered around enhancing productivity, rather it aims to engage users in moments of connectedness and thinking about others. Also, our object enables users to participate in a gift exchange economy rather than a commercial one, whereby users establish and maintain a series of meaningful connections by sending the object back and forth to one another. Furthermore, we chose to focus on the materiality of interaction design and explore supple and squishy materials that others have yet to explore.</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Future Work -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-row-padding">
+        <h1>Future work</h1>
+        <h5 class="w3-padding-32">Our next steps will focus on the connectivity between devices that will enable users to send mood profiles to each other through wifi signals and to enhance tactile affordances and provide haptic feedback for interactions such as vibrations when squeezing the Ambi. </h5>
+      </div>
+    </div>
+  </div>
+
+<!-- Related Work -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-row-padding">
+        <h1>Related Work</h1>
+        <ul class="w3-padding-32">
+            <li><a href="https://link.springer.com/article/10.1007/s00779-018-1141-6">DeLight: biofeedback through ambient light for stress intervention and relaxation assistance</a></li>
+            <p>DeLight is a system that informs users about their stress levels and assists them in biofeedback relaxation with a biofeedback-driven lighting environment. DeLight measures physiological data such as blood volume pulse, respiration, and skin conductance. The data is transmitted to a biofeedback program via a Bluetooth connection, which is coupled to a set of programmable light bulbs. Our solution differs from DeLight in physicality and form. While DeLight has several components of ambient lights installed on the ceiling, our proposed system is portable, in a rounded spherical form, and can be held freely by the user. Our solution also promotes social connection by coupling feedback between two partner objects.
+            </p>
+            <li><a href="https://enchantedobjects.com/#/ambient-orb/">Enchanted Objects ambient orb: The first single pixel browser </a></li>
+            <p>This ambient orb accesses online information to allow users to track information important to them through shifting colors. Our solution also uses a shifting ambient display, but instead of tapping into online information, our proposed system will track and communicate information from the user between two objects, including touch and pulse information, for example. Our display emphasizes the use of light to promote a relaxed, meditative atmosphere.
+            </p>
+            <li><a href="http://cs.wellesley.edu/~oshaer/EmotiSphere.pdf">EmotiSphere: From Emotion to Music</a></li>
+            <p>Emotisphere is an interactive sensor-based musical instrument that generates music based on a user’s emotional state. Emotisphere offers a novel way to understand the relationship between music and emotions by representing the interaction in a glowing white orb that changes color. Our idea differs from EmotiSphere as it does not incorporate music but both aim to represent an inner state through a separate object that affects the surrounding environment.
+            </p>
+            <li><a href="https://dl-acm-org.ezproxy.wellesley.edu/doi/pdf/10.1145/2996267.2996274">Promoting Social Connectedness through Human Activity-Based Ambient Displays</a></li>
+            <p>This paper analyzes the capabilities of current data collection to inform caretakers of elderly patients about their health, mood, and habits. The research presents a bidirectional ambient display platform, enabling asynchronous viewing of activity levels to create awareness and enhance social connectedness. This application can be useful in understanding the importance of relaying information about an internal state to a separate viewing device to reduce isolation and loneliness. Our solution does not focus solely on elderly patients, although it could encompass them as well, or specifically on health but also an emotional state. </p>
+            <li><a href="https://www.researchgate.net/publication/327019833_EmoEcho_A_Tangible_Interface_to_Convey_and_Communicate_Emotions">EmoEcho: A Tangible Interface to Convey and Communicate Emotions</a></li>
+            <p>EmoEcho is a tangible interface that captures and communicates emotions between distanced people. Using a wearable device, the system measures the wearer’s touch, movement, and pulse, creating vibration patterns on the connected partner device. Our idea differs from EmoEcho, as it uses an ambient lighting system to impact the user’s environment. The ambient lighting creates a more immersive experience that promotes stress reduction and relaxation.
+            </p>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="w3-container w3-purple w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Designed by Marinn, Suze, and Jasmine</h1>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+
+ <p>Github repository <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">HERE</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

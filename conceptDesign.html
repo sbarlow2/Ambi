@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: Arial, sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="conceptDesign.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Conceptual Design</a>
+    <a href="prototypes.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Prototypes</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Research</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="conceptDesign.html" class="w3-bar-item w3-button w3-padding-large">Conceptual Design</a>
+    <a href="prototypes.html" class="w3-bar-item w3-button w3-padding-large">Prototypes</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-padding-large">Research</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:100px 16px; background-image:linear-gradient(to bottom, #9999ff 0%, #ff66ff 100%);">
+  <h1 class="w3-margin w3-jumbo" style="color: white; font-weight: bold;">Conceptual Design</h1>
+</header>
+
+<!-- User Scenario First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-row-padding">
+      <h1>User Scenario</h1>
+      <h5 class="w3-padding-32">Wanda is a 26 year old woman who has recently moved to Boston, MA to start a new job as an accountant at CitiBank. Wanda is far away from her family, friends, and boyfriend who live in Houston, TX and is feeling especially isolated and lonely because of the lack of in-person interactions during the pandemic. Wanda works full-time from her desk in her one-bedroom apartment, and only sees her colleagues and friends over Zoom or Facetime. She is experiencing fatigue from too much screen time and misses the easy communication afforded through in person interactions. </h5>
+      <h4 style="font-weight: bold;">User needs</h4>
+      <p class="w3-text-grey">Wanda wants to decrease feelings of isolation and increase connections with her boyfriend, who she is in a long-distance relationship with. She decides to use Ambi, a tangible user interface that enables Wanda to communicate her mood, reduce stress levels, and feel the presence of others through ambient light display feedback. She also gives a connected partner Ambi to her boyfriend, so the two Ambi devices can communicate mood data with each other.
+      </p>
+      <h4 style="font-weight: bold;">User interaction</h4>
+      <p class="w3-text-grey">Wanda turns on Ambi, and while in its resting mode, Ambi affects the overall environment of the room by exhibiting light patterns that simulate a breathing presence, to create a calming, meditative atmosphere. When Wanda puts pressure on her Ambi device by squeezing it or touching it, pulse and skin sensors on the system will respond to her interaction by generating an emotion/mood profile for Wanda. The connected partner Ambi owned by Wanda’s boyfriend will represent Wanda’s emotions by changing the resting light patterns to colors corresponding to Wanda’s mood profile. Ambi is a portable device that sits on a base but can be moved freely around the house. Wanda likes to have it in the room when she works at her desk. 
+      </p>
+      <h4 style="font-weight: bold;">User benefits</h4>
+      <p class="w3-text-grey">Wanda receives a few benefits to using Ambi. As a result of using the device, Wanda feels less stressed after repeatedly squeezing the orb. The material allows for tactile affordances similar to a stress ball, squeezing Ambi releases tension and reduces her stress levels. Secondly, Wanda feels a heightened sense of emotional connection with her boyfriend who is the user of the corresponding partner device after being able to communicate their mood to each other. She can get insight into her partner’s emotional state without relying on screen communication and exacerbating her screen fatigue. This somewhat replicates the ease of intuitive communication of mood that usually happens in in-person interactions like nonverbal cues. Ambi allows both Wanda and her boyfriend to work and go about their lives separately but still have a line of communication where they can still feel connected to each other.  Lastly, the immersive lighting atmosphere produced by Ambi affects the user’s working environment in a non-intrusive way, and studies have shown that certain colored ambient lights impact the autonomic nervous system in ways that promote relaxation and stress management.
+      </p>
+    </div>
+
+    
+  </div>
+</div>
+
+<!-- Storyboard Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+        <h1>Storyboard</h1>
+    </div>
+   
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+        <div class="w3-quarter w3-left-align">
+          <img src="images/storyboardOne.png" alt="Wanda sad working" style="width:100%">
+          <p>Wanda is working remotely in her room, feeling lonely and isolated. She is thinking about her boyfriend which distracts her from work.</p>
+        </div>
+        <div class="w3-quarter w3-left-align">
+          <img src="images/storyboardTwo.png" alt="Wanda sitting" style="width:100%">
+          <p>Wanda sits at her desk while writing a report for work and decides to turn on Ambi. The device turns on and emanates a soft pulsating light that begins to transform the ambience in her room, making her feel more relaxed.</p>
+        </div>
+        <div class="w3-quarter w3-left-align">
+          <img src="images/storyboardThree.png" alt="Wanda squeezes Ambi" style="width:100%">
+          <p>Wanda removes Ambi from its stand and starts squeezing it with her hand. Sensors on the device pick up Wanda’s emotions and create a mood profile that is communicated to the partner device.</p>
+        </div>
+        <div class="w3-quarter w3-left-align">
+          <img src="images/storyboardFour.png" alt="Wanda's Ambi changes color" style="width:100%">
+          <p>Wanda’s Ambi changes to a bright pink color, indicating that her boyfriend has been interacting with the partner Ambi and that his mood profile is happy. Wanda is feeling more calm and more connected with her boyfriend after experiencing his emotions through Ambi. Now, she is able to focus on work without feeling isolated.</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="w3-container w3-center w3-padding-64">
+  <h1 class="w3-margin w3-xlarge">Task Overview</h1>
+  <img src="images/tasks.png" alt="tasks" style="padding: 2rem; width:800px;height:500px;">
+</div>
+
+<!-- Design Sketches Third Grid -->
+ <div class="w3-row-padding w3-padding-64 w3-container">
+    
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1>Design Sketches</h1>
+        <h5 class="w3-padding-30">Default Setting</h5>
+  
+        <p class="w3-text-grey">Ambi has two interaction modes, the first is passive and the second is active. This graphic depicts the passive setting or default setting where users are not directly engaging with the device but are able to experience its calming lighting effects. In situations where Ambi is placed on a surface on its platform it will emanate a pulsating light that affects the ambience of the room. </p>
+      </div>
+  
+      <div class="w3-third w3-center">
+          <img src="images/default.jpg" alt="Ambi default" style="width:400px;height:340px;">
+      </div>
+
+      <h5 class="w3-padding-30">Interactive Setting</h5>
+  
+        <p class="w3-text-grey">The second interaction mode is active and occurs when both users hold or squeeze Ambi. For example, when user A and B squeeze their Ambis it creates a haptic feedback loop in which both users experience the other’s emotions in real-time. In this example, user A has a purple mood profile and user B has a green mood profile and their corresponding Ambi changes color based on the other person’s mood profile. </p>
+      </div>
+  
+      <div class="w3-twothird w3-center">
+          <img src="images/interactive.png" alt="Ambi interactive" style="width:600px;height:340px; padding-left: 10rem;">
+      </div>
+      
+    </div>
+  </div>
+
+
+<div class="w3-container w3-light-grey w3-center w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">How it works</h1>
+    <div class="w3-left-align w3-margin w3-row-padding w3-container w3-third">
+    <p>When a user puts pressure on the device, Ambi measures the user’s pulse and skin conductance through haptic sensors. This physiological data provides information about a user’s emotions which we’ve attached to corresponding colors. Once Ambi records this information, it exchanges this data with its corresponding Ambi, enabling people to experience each other’s mood profiles. Another factor we’ve considered is pressure, and incorporating pressure sensors to measure a user’s grip which would control the light and color intensity exhibited by Ambi. </p>
+    </div>
+    <img src="images/colors.jpg" alt="Ambi colors" style="padding: 2rem; width:600px;height:340px;">
+</div>
+<div class="w3-container w3-purple w3-center w3-opacity w3-padding-64">
+  <h1 class="w3-margin w3-xlarge">Designed by Marinn, Suze, and Jasmine</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ <p>Github repository <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">HERE</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
